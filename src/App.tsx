@@ -1,8 +1,6 @@
 import React from "react";
 import { BrowserRouter as Router, Route } from "react-router-dom";
 import { Routes } from "react-router";
-
-
 import AnimalList from "./components/AnimalList";
 import AnimalDetails from "./components/AnimalDetails";
 
@@ -22,4 +20,4 @@ function App() {
   );
 }
 
-export default App;
+export default App
